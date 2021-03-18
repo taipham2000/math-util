@@ -1,0 +1,7 @@
+gõ lệnh 
+git init
+git add *
+git commit -m "thông-ddiepj-của-bạn"
+git branch -M main
+git remote add origin https://github.com/tên-account-git/tên-kho.git
+git push -u origin main
