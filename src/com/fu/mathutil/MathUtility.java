@@ -23,11 +23,17 @@ public class MathUtility {
             throw new IllegalArgumentException("n must be between 0...20");
             // sống xót đến đây thì n=0 ,1,2...30
             if(n==0 || n==1)
-                return 1; //0!,1!=1           
-            long result =1;// XANH LOCAL VAF SERVER// GIẢ BỘ =
+                return 1; //0!,1!=1        
+            return n*getFactorial(n-1);
+            //n!= n*  (n-1)!
+            // đệ quy ,vòng lại chính mình với quy mô khác 
+            //recursion. làm khéo nếu k nó đi mãi mãi
+            //STACKOVERFLOW.COM
+            
+            /*long result =1;// XANH LOCAL VAF SERVER// GIẢ BỘ
             for(int i=2;i<=n;i++)
                 result *=i;
-            return result;
+            return result;*/
         
     }
 }
