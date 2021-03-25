@@ -59,7 +59,7 @@ public class MathUtilityTest {
     //KHO XH NHƯ DỰ KIẾN -> ĐỎ 
     @Test(expected = IllegalArgumentException.class)
     public void testFactorialGivenWrongArgumentThrowsException(){
-        MathUtility.getFactorial(3);
+        MathUtility.getFactorial(-1);
   //      MathUtility.getFactorial(-10);//phải xh ngoại lệ Exception 
     //    MathUtility.getFactorial(21);
       //  MathUtility.getFactorial(40);
