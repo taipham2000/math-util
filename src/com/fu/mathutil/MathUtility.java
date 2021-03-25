@@ -24,7 +24,7 @@ public class MathUtility {
             // sống xót đến đây thì n=0 ,1,2...30
             if(n==0 || n==1)
                 return 1; //0!,1!=1           
-            long result =1;
+            long result =1;// XANH LOCAL VAF SERVER// GIẢ BỘ =
             for(int i=2;i<=n;i++)
                 result *=i;
             return result;
